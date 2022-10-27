@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.mainBG {
+    background-color: rgb(22, 6, 40);
+    width: 100%;
+    height: auto;
+    padding: 7% 15%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.mainBG .row {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(255, 229, 61);
+}
+.mainBG .row .cc h2 {
+    text-align: center;
+    float: left;
+}
+.mainBG .row .cc p {
+    text-align: center;
+    float: right;
+}
+.mainBG .row .cc p button {
+    cursor: pointer; 
+    border: none; 
+    background-color: transparent; 
+    color: rgb(255, 229, 61);
+}
+.mainBG .row .answer {
+    width: auto;
+    height: auto;
+    font-weight: 900;
+    background-color: rgb(29, 9, 52);
+    text-align: end;
+    margin: auto;
+    margin-top: 1.5%;
+    border-radius: 13px;
+    padding: 3% 2%;
+}
+.mainBG .row .answer h1 input {
+    color: rgb(255, 229, 61) !important;
+}
+.mainBG .row .numbers {
+    width: auto;
+    height: auto;
+    background-color: rgb(29, 9, 52);
+    text-align: end;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 13px;
+    padding: 3.2% 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mainBG .row .numbers button {
+    width: 20%;
+    height: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3.4%;
+    padding: 1% 8%;
+    font-size: 32px;
+    font-weight: 1000;
+    color: rgb(255, 229, 61);
+    border-radius: 13px;
+    border: none;
+    background-color: rgb(52, 28, 79);
+    box-shadow: rgb(135, 28, 156) 0px 4px 0px;
+}
+.mainBG .row .numbers #delBtn, .mainBG .row .numbers #resetBtn {
+    width: 20%;
+    height: auto;
+    margin-left: 1%;
+    margin-bottom: 3.4%;
+    padding: 0 2.5% !important;
+    font-size: 30px;
+    font-weight: 1000;
+    color: white;
+    border-radius: 13px;
+    border: none;
+    background-color: rgb(88, 7, 125) !important;
+    box-shadow: rgb(188, 21, 244) 0px 4px 0px !important;
+}
+.mainBG .row .numbers #resetBtn, .mainBG .row .numbers #submitBtn {
+    width: 46%;
+}
+.mainBG .row .numbers #submitBtn {
+    color: black !important;
+    background-color: rgb(0, 224, 209) !important;
+    box-shadow: rgb(108, 249, 242) 0px 4px 0px !important;
+}
+@media (max-width: 768px) {
+    .mainBG {
+        background-color: rgb(22, 6, 40);
+        width: 100%;
+        height: auto;
+        padding: 25% 11%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+    }
+    .mainBG .row .answer {
+        width: 100%;
+        height: auto;
+        font-weight: 900;
+        background-color: rgb(29, 9, 52);
+        text-align: end;
+        margin: auto;
+        margin-top: 1.5%;
+        border-radius: 13px;
+        padding: 9% 2%;
+    }
+    .mainBG .row .numbers {
+        width: auto;
+        height: auto;
+        background-color: rgb(29, 9, 52);
+        text-align: end;
+        margin: auto;
+        margin-top: 7%;
+        border-radius: 13px;
+        padding: 10% 3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .mainBG .row .numbers button {
+        width: 23%;
+        height: auto;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 5%;
+        padding: 1.5% 2.5%;
+        font-size: 32px;
+        font-weight: 1000;
+        color: rgb(255, 229, 61);
+        border-radius: 13px;
+        border: none;
+        background-color: rgb(52, 28, 79);
+        box-shadow: rgb(135, 28, 156) 0px 4px 0px;
+    }
+}
